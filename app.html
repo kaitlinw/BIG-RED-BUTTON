@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <style>
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color:white; 
+      text-decoration:none; 
+      cursor:pointer;
+    }
+
+    a:active {
+      background-color: blue;
+    }
+
+    .big-red-button {
+      width: 450px;
+      height: 450px;
+      border-radius: 100%;
+      border: solid black;
+      border-width: 20px;
+      background-color: red;
+      font: 70px bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    p {
+      text-align: center;
+      font-family: arial;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <p>To download Kaitlin's resume: Kaitlin Walsh - Resume.pdf, click the big red button.</p>
+    <br/>
+    <a class="big-red-button" href="./Kaitlin Walsh - Resume.pdf" download>
+      <p>
+        BIG RED BUTTON
+      </p>
+    </a>
+  </div>
+</body>
+
+</html>
